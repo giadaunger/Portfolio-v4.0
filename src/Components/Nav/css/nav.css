@@ -1,0 +1,18 @@
+.nav-ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.nav-li{
+    display: inline;
+    margin: 10px;
+    color: #446abb;
+    font-size: 1.2em;
+}
+
+.nav-link{
+    text-decoration: none;
+}
