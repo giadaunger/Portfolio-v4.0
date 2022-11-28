@@ -37,7 +37,7 @@ const Contact = () => {
         <div id="contact-div">
             <div className="contact-header">
                 <h1 className="contact-h1">Contact</h1>
-                <p className="contact-p">If you don't have any questions or a message, feel free to leave some feedback / constructive criticism on my portfolio :)</p>
+                <p className="contact-p blue">If you don't have any questions or a message, feel free to leave some feedback / constructive criticism on my portfolio :)</p>
             </div>
 
             <div className="form-div">
@@ -50,7 +50,7 @@ const Contact = () => {
 
             <label>Message:</label><br />
             <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea><br />
-            <button className="form-btn" onClick={submit}>Send Message</button><br />
+            <button className="form-btn greenC" onClick={submit}>Send Message</button><br />
             <span className={emailSent ? 'visible' : null}><p className="span-p">Thank you for your message!</p></span>
             </form>
             </div>

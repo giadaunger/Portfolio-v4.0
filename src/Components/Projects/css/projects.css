@@ -4,7 +4,7 @@
     margin-right: auto;
     width: 40ch;
     margin-top: 20px;
-    box-shadow: 10px 10px 5px rgb(173, 186, 230);
+    box-shadow: 5px 8px 10px #1d1d1d
 }
 
 .project-pic{
@@ -18,8 +18,6 @@
 }
 
 .info-span{
-    background-color: #446abb;
-    color: white;
     padding: 7px;
     border-radius: 25px;
     margin: 5px;
@@ -42,20 +40,12 @@
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 70px;
 }
 
 .project-btn{
-    border: 2px solid #446abb;
-    color: #446abb;
     border-radius: 25px;
     padding: 5px;
-    margin: 5px;
-}
-
-.project-btn:hover{
-    color: white;
-    background-color: #446abb;
+    margin-bottom: 20px;
 }
 
 .description{
@@ -70,6 +60,11 @@
 .project-h2{
     text-align: center;
     margin-bottom: 10px;
+    color: white;
+}
+
+.project-p{
+    color: white;
 }
 
 .header-div{
@@ -80,18 +75,39 @@
 
 .header-p{
     width: 80%;
-    background-color: #446abb;
     padding: 10px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
-    box-shadow: 10px 10px 5px rgb(173, 186, 230);
-    color: white;
 }
 
 .header-h1{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 30px;
+    color: white;
+}
+
+.blue{
+    color: #5E94DD;
+    border: 5px solid #5E94DD;
+    box-shadow: 10px 10px 5px rgba(169, 222, 255, 0.5);
+}
+
+.greenP{
+    color: #2CA163;
+    border: 5px solid #2CA163;
+    box-shadow: 10px 10px 5px rgb(44, 161, 99, 0.5);
+}
+
+.greenP:hover{
+    color: white;
+    background-color: rgb(44, 161, 99, 0.5);
+}
+
+.orange{
+    color: #EC693C;
+    border: 5px solid #EC693C;
+    box-shadow: 10px 10px 5px rgb(236, 105, 60, 0.5);
 }

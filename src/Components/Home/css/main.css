@@ -4,7 +4,6 @@
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 10px 10px 5px rgb(173, 186, 230);
 }
 
 .btn-div{
@@ -12,7 +11,7 @@
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    max-width: 30ch;
+    max-width: 40ch;
     margin-top: 20px;
 }
 
@@ -22,17 +21,21 @@
 }
 
 .btn{
-    width: 30ch;
+    width: 20ch;
     margin: 5px;
     padding: 5px;
     border-radius: 25px;
-    border: 2px solid #446abb;
-    color: #446abb;
-    background-color: white;
-    box-shadow: 10px 10px 5px rgb(173, 186, 230);
+    margin-bottom: 25px;
+    font-weight: bold;
 }
 
-.btn:hover{
+.blueM{
+    color: #5E94DD;
+    border: 5px solid #5E94DD;
+    box-shadow: 10px 10px 5px rgba(169, 222, 255, 0.5);
+}
+
+.blueM:hover{
     color: white;
-    background-color: #446abb;
+    background-color: rgb(94, 148, 221, 0.5);
 }

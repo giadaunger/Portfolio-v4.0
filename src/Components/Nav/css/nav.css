@@ -9,8 +9,10 @@
 .nav-li{
     display: inline;
     margin: 10px;
-    color: #446abb;
-    font-size: 1.2em;
+    color: white;
+    font-size: 1.1em;
+    float: right;
+    padding: 10px;
 }
 
 .nav-link{

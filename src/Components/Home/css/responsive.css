@@ -8,6 +8,11 @@
     .slider-h3{
       font-size: 2em;
     }
+
+    .btn-ul{
+      margin-top: 15px;
+      margin-bottom: 50px;
+    }
   }
 
 
@@ -21,9 +26,9 @@
       font-size: 1.5em;
     }
 
-    .fling-minislide{
-        width:500px; 
-        height:390px;
+    .btn-ul{
+      margin-top: 40px;
+      margin-bottom: 60px;
     }
   }
 
@@ -39,11 +44,11 @@
       padding: 10px;
     }
 
-    .fling-minislide{
-        width:500px; 
-        height:390px;
+    .banner{
+      height: 500px;
     }
   }
+
 
   @media screen and (min-width: 1500px) {
     .slider-h3{
@@ -56,8 +61,7 @@
       padding: 12px;
     }
 
-    .fling-minislide{
-        width:500px; 
-        height:390px;
+    .banner{
+      height: 600px;
     }
   }

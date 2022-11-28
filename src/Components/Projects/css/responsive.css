@@ -5,6 +5,7 @@
 
     .project{
         width: 55ch;
+        margin-bottom: 50px;
     }
 
     .info-span, .project-btn{
@@ -48,6 +49,7 @@
 
     .project{
         width: 75ch;
+        margin-bottom: 60px;
     }
 
     .info-div{
